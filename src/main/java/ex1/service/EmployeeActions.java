@@ -41,7 +41,8 @@ public class EmployeeActions {
             {
                 Node eNode = eList.item(i);
                 Element eElement = (Element) eNode;
-                System.out.println("№ " + eElement.getAttribute("id"));
+                System.out.println("----------------------------------------------------");
+                System.out.println("№ сотрудника: " + eElement.getAttribute("id"));
                 System.out.println("ФИО: " + eElement.getElementsByTagName("fio").item(0).getTextContent());
                 System.out.println("Дата рождения: " + eElement.getElementsByTagName("birthdate").item(0).getTextContent());
                 System.out.println("Дата принятия на работу: " + eElement.getElementsByTagName("startworkdate").item(0).getTextContent());
