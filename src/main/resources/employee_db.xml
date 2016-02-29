@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<employees>
+    <employee id="1">
+        <fio>Ivanov Ivan Ivanovich</fio>
+        <birthdate>25.05.1985</birthdate>
+        <startworkdate>15.05.2015</startworkdate>
+    </employee>
+</employees>
